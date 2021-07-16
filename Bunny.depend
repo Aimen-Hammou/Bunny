@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1626090992 source:c:\users\hammou\desktop\c, c++\bunny\main.cpp
+	<iostream>
+	<cassert>
+	<string>
+	<vector>
+	<fstream>
+	"lexer.h"
+	"parser.h"
+	"evaluator.h"
+
+1622913735 c:\users\hammou\desktop\c, c++\bunny\token.h
+	<iostream>
+	<string>
+	<unordered_map>
+
+1625940516 source:c:\users\hammou\desktop\c, c++\bunny\lexer.cpp
+	<ctype.h>
+	"lexer.h"
+
+1625147154 c:\users\hammou\desktop\c, c++\bunny\lexer.h
+	"token.h"
+
+1622655394 source:c:\users\hammou\desktop\c, c++\bunny\token.cpp
+	"token.h"
+
+1626102847 source:c:\users\hammou\desktop\c, c++\bunny\ast.cpp
+	"ast.h"
+
+1624544029 c:\users\hammou\desktop\c, c++\bunny\ast.h
+	<vector>
+	"token.h"
+
+1625152034 source:c:\users\hammou\desktop\c, c++\bunny\todo.cpp
+
+1626114603 source:c:\users\hammou\desktop\c, c++\bunny\parser.cpp
+	"parser.h"
+	<stdexcept>
+
+1626104803 source:c:\users\hammou\desktop\c, c++\bunny\precedences.cpp
+	"precedences.h"
+
+1626104789 c:\users\hammou\desktop\c, c++\bunny\precedences.h
+	<unordered_map>
+	"lexer.h"
+	"ast.h"
+
+1625940284 c:\users\hammou\desktop\c, c++\bunny\parser.h
+	<vector>
+	<string>
+	<unordered_map>
+	"lexer.h"
+	"ast.h"
+	"precedences.h"
+
+1625152341 source:c:\users\hammou\desktop\c, c++\bunny\object.cpp
+	"object.h"
+
+1625177420 c:\users\hammou\desktop\c, c++\bunny\object.h
+	<vector>
+	<string>
+	"ast.h"
+
+1625945273 source:c:\users\hammou\desktop\c, c++\bunny\env.cpp
+	"env.h"
+
+1625153500 c:\users\hammou\desktop\c, c++\bunny\env.h
+	<unordered_map>
+	<string>
+	"object.h"
+
+1625161670 source:c:\users\hammou\desktop\c, c++\bunny\garbagecollector.cpp
+	"garbageCollector.h"
+
+1625161836 c:\users\hammou\desktop\c, c++\bunny\garbagecollector.h
+	"env.h"
+
+1626114137 source:c:\users\hammou\desktop\c, c++\bunny\evaluator.cpp
+	<iostream>
+	"evaluator.h"
+
+1625597317 c:\users\hammou\desktop\c, c++\bunny\evaluator.h
+	<unordered_map>
+	<functional>
+	<cstdarg>
+	"object.h"
+	"ast.h"
+	"env.h"
+	"garbageCollector.h"
+

@@ -1,0 +1,22 @@
+print("hello world!");
+
+var a = 1321231;
+
+
+var minFactor = func (a) {
+	var i = 2;
+	while(true) {
+		if (a % i == 0) {
+			return i;
+		}
+		var i = i + 1;
+	}
+}
+
+var f = minFactor(a);
+
+if (f == a) {
+	print(a, "is a prime!");
+} else {
+	print("minimal prime factor for", a, "is", f);
+}
